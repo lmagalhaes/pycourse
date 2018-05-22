@@ -1,6 +1,6 @@
 ## lists
 
-List is an ordered collection of items and can contain any sequence of any valid python types,including.
+List is an ordered collection of items and can contain any sequence of any valid python types,including lists.
 
 Elements in a list should be enclosed by square brackets separated by ',', including others lists.
 
@@ -26,7 +26,7 @@ Some important methods to manipulate a list are:
 * clear - Removes all elements in a list
 
 
-You can have a fuill of methods and attributes using the dir function:
+You can have a full of methods and attributes using the dir function:
 ```python
 dir([])
 ```
