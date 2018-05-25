@@ -1,6 +1,4 @@
-FROM python:3
-
-RUN mkdir /opt/pycourse
+FROM python:3.6-alpine
 
 WORKDIR /opt/pycourse
 
