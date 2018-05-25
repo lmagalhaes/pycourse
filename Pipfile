@@ -1,12 +1,15 @@
 [[source]]
-url = "https://pypi.org/simple"
-verify_ssl = true
 name = "pypi"
+verify_ssl = true
+url = "https://pypi.org/simple"
+
+[dev-packages]
 
 [packages]
 ipython = "*"
-
-[dev-packages]
+ipdb = "*"
+pytest = "*"
+requests = "*"
 
 [requires]
 python_version = "3.6"
