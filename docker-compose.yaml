@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+
+  pycourse:
+    container_name: 'pycourse'
+    image: 'pycourse:v1'
+    build:
+      dockerfile: './Dockerfile'
+      context: '.'
