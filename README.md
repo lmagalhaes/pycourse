@@ -36,9 +36,9 @@
 * Reference
 * PHP Reference "&" vs Python's
 * Override methods
-* Super
 
-### It's more than you think
+### Super aka. super()
+* It's more than you think
 * Multiple inheritance
 * NOT "TRAITS"
 * If you need it, there's 80% change you are doing it wrong
@@ -56,13 +56,13 @@
 
 ### Modules:
 * from package import module
-* import 
+* import
 
 ### TESTING:
 * Runners:
     * Pytest
     * Tox
-    
+
 ### Interesting tools:
 Micro: Flask
 Big(o): Django
