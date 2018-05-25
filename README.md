@@ -1,6 +1,16 @@
 # pycourse
 
+## Dependencies
+
+* docker
+* docker-compose
+
+## Running ipython shell
+
+docker-compose run --rm pycourse
+
 ##Main topics:
+
 ### What is python
 
 ### Overall python:
