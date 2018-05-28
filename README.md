@@ -9,42 +9,45 @@
 
 docker-compose run --rm pycourse
 
-##Main topics:
-
 ### What is python
+* Brief python backstory
+* The Zen of Python (PEP 20)
+    * Beautiful is better than ugly
+    * Explicit is better than implicit
+    * Simple is better than complex
+    * Complex is better than complicated
+    * Readability counts
 
 ### Overall python:
-* Strong Typed Languages:
+* What are strong typed languages?
 * EVERYTHING IS A FREAKING OBJECT
 * EVEN OBJECT IS AN OBJECT
 * "1" + 1 = `must be str, not int`
 * PHP dynamically typed vs Python strong types
 * Strong typed languages vs Statically typed languages
-* PHP vs Python
-* PHP vs Golang
-* Python vs Golang
 * Data structures
 * Dict
 * List
 * Set
 * Collections
-* Comprehensions
-
+* Introduction to "comprehensions"
 
 ### CLASSES/FUNCTIONS:
-* __init__
-* Be public
+* \__init__
+* "Be public"
     * EVERYTHING IS PUBLIC
-    * But it's a good thing
+    * But that's a good thing
 * Private" classes
     * "You don't need too many classes"
 * Functions as first citizen
-* Functions are objects!
+    * Functions are objects!
 * Named parameters name=value
 * Dict and List expansion **
-* Magic Methods
-* Reference
-* PHP Reference "&" vs Python's
+* Magic methods
+* Reference vs "Labels"
+    * Names and bindings
+    * Variables and assisgnment
+    * PHP Reference "&" vs Python's
 * Override methods
 
 ### Super aka. super()
@@ -52,6 +55,7 @@ docker-compose run --rm pycourse
 * Multiple inheritance
 * NOT "TRAITS"
 * If you need it, there's 80% change you are doing it wrong
+* MRO - Method resolution order
 
 ### PYTHONPATH, IMPORT PATH:
 * How does it work?
