@@ -74,28 +74,30 @@ docker-compose run --rm pycourse
     * Tox
 
 ### Interesting tools:
-Micro: Flask
-Big(o): Django
-IoHTTP, Tornado, Twisted
+* Micro: Flask
+* Big: Django
+* Async: AIOHTTP, Tornado, Twisted
 
-### Dependency Management
-Pip
-Pipenv
+### Dependency Management and Distribution
+* Pip
+* Pipenv
+* setuptools
 
 ### DI
 * Not as needed as you would think
 * Parameters vs Imports
-* Modules as factories
+* Modules are factories
 
 ### Extras:
-* How not to write Python as PHP
 * Design Patterns
-* Multi-processed applications: How not to
+    * How not to write Python as PHP
+* Multi-threaded/processed applications: How not to
     * Threads
     * Processes
+    * Async
     * GIL
 * OOP flavour
-* PHP
-* Restriction over responsibility
-* Python
-* Access over responsibility
+    * PHP
+        * Restriction over responsibility
+    * Python
+        * Access over responsibility
