@@ -8,4 +8,6 @@ ADD Pipfile Pipfile.lock ./
 
 RUN pipenv install --deploy --system
 
+ADD . .
+
 CMD ["ipython"]
