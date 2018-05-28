@@ -100,4 +100,4 @@ docker-compose run --rm pycourse
     * PHP
         * Restriction over responsibility
     * Python
-    * Access over responsibility
+        * Access over responsibility
