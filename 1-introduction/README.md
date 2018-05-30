@@ -11,11 +11,11 @@ It's name is based on a British comedy series called Monty Python which the auth
 
 Python core is very small and is present in most modern Linux distros, as well as Mac OSX. 
 
-Furthermore, due to Python's simplicity, readability and community it's learning curve is really low and, everyone with 
-basic programming skills can start writing scripts right away.
+Furthermore, Python's simplicity, readability make its learning curve really low and, anyone with 
+basic programming skills can start writing scripts, right away.
 
- 
-Pythons varied range of libraries, allows it to be used for practically everything, from writing small scripts, to help you with you daily tasks, to develop complex scientific applications and has been hugely adopted by companies, like, just to name a few:
+Due to its varied range of libraries, Python can be used for practically everything, from writing small scripts (to help you with simple daily tasks) to the development of complex scientific applications and it has been hugely 
+adopted by companies, like, just to name a few:
 
  * Google
  * Dropbox (where [Guido Von Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) currently works) 
@@ -24,20 +24,21 @@ Pythons varied range of libraries, allows it to be used for practically everythi
  * Nasa
  * Reddit
  
-## Another reasons to adopt Python
+Also, the [Python Community](https://www.python.org/community/) is huge and very active. 
+ 
+### Other reasons to adopt Python
 
+* Is among the [Top 10 Most Popular Technologies](https://insights.stackoverflow.com/survey/2018/#most-popular-technologies) in [StackOVerFlow](https://stackoverflow.com/)
 * The [most popular introductory teaching language in U.S. universities](https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/fulltext),
 * Among [Most Popular and Influential Programming Languages of 2018](https://stackify.com/popular-programming-languages-2018/)
 * Has risen steadily over the past 15 years
 
-For more information visit: https://stackify.com/popular-programming-languages-2018/
-
 
 # Python zen (PEP 20)
 
-Python zen is a list of 20 principles the influenced the design of the language. It is described on the PEP
+Python zen is a list of 20 principles that influenced the design of the language. It is described on the [PEP-20](https://www.python.org/dev/peps/pep-0020/)
 
-You can see the whole zen philosophy by importing this on the interactive python shell:
+You can see the whole zen philosophy by importing ```this``` on the interactive python shell:
 ```python
 $ python
 Python 2.7.14 (default, Apr 10 2018, 17:14:16) 
@@ -57,7 +58,7 @@ Complex is better than complicated.
 
 # Python enhancement Proposal (PEP)
 
-Python enhancement Proposal or simply PEP, is design document providing information to the Python community, or describing a new feature for Python or its processes or environment. 
+Python enhancement Proposal or simply PEP, is a design document providing information to the Python community, or describing a new feature for Python or its processes or environment. 
 
 The PEP should provide a concise technical specification of the feature and a rationale for the feature 
 
@@ -70,15 +71,15 @@ There are 3 kinds of PEP:
 
 ## Standard tracks
 
-Describes a new feature or implementation for Python. For example:
+Describes a new feature or implementation for Python, for example:
 
-* [PEP-553](https://www.python.org/dev/peps/pep-0553/), that defines a new debugging function that is an alias for 
+* [PEP-553](https://www.python.org/dev/peps/pep-0553/), that defines a new ```debugging``` function that is an alias for 
 ```import pdb; pdb.set_trace()```.
 
 
 ## Informational
  
-Describes a Python design issue, or provides general guidelines or information to the Python community. For example, 
+Describes a Python design issue, or provides general guidelines or information to the Python community, for example:
 * [PEP-0](https://www.python.org/dev/peps/): Constans an index of Python Enhancement Proposals
 
 
