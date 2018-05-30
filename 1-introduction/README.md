@@ -15,9 +15,7 @@ Furthermore, due to Python's simplicity, readability and community it's learning
 basic programming skills can start writing scripts right away.
 
  
-Due to Pythons varied range of libraries, it can be used for practically everything,
-from writing small scripts, to help you with you daily tasks, to develop complex scientific applications and has been hugely 
-adopted by companies, like, just to name a few:
+Pythons varied range of libraries, allows it to be used for practically everything, from writing small scripts, to help you with you daily tasks, to develop complex scientific applications and has been hugely adopted by companies, like, just to name a few:
 
  * Google
  * Dropbox (where [Guido Von Rossum](https://en.wikipedia.org/wiki/Guido_van_Rossum) currently works) 
@@ -26,7 +24,7 @@ adopted by companies, like, just to name a few:
  * Nasa
  * Reddit
  
-### Another reasons to adopt Python
+## Another reasons to adopt Python
 
 * The [most popular introductory teaching language in U.S. universities](https://cacm.acm.org/blogs/blog-cacm/176450-python-is-now-the-most-popular-introductory-teaching-language-at-top-u-s-universities/fulltext),
 * Among [Most Popular and Influential Programming Languages of 2018](https://stackify.com/popular-programming-languages-2018/)
@@ -35,7 +33,7 @@ adopted by companies, like, just to name a few:
 For more information visit: https://stackify.com/popular-programming-languages-2018/
 
 
-## Python zen (PEP 20)
+# Python zen (PEP 20)
 
 Python zen is a list of 20 principles the influenced the design of the language. It is described on the PEP
 
@@ -57,12 +55,11 @@ Complex is better than complicated.
 
 ```
 
-## PEP's
+# Python enhancement Proposal (PEP)
 
-PEP stands for Python enhancement Proposal.
+Python enhancement Proposal or simply PEP, is design document providing information to the Python community, or describing a new feature for Python or its processes or environment. 
 
-According to Python.org a PEP is:
-> design document providing information to the Python community, or describing a new feature for Python or its processes or environment. The PEP should provide a concise technical specification of the feature and a rationale for the feature 
+The PEP should provide a concise technical specification of the feature and a rationale for the feature 
 
 There are 3 kinds of PEP: 
 
@@ -71,7 +68,7 @@ There are 3 kinds of PEP:
 3. Process
 
 
-### Standard tracks
+## Standard tracks
 
 Describes a new feature or implementation for Python. For example:
 
@@ -79,13 +76,13 @@ Describes a new feature or implementation for Python. For example:
 ```import pdb; pdb.set_trace()```.
 
 
-### Informational
+## Informational
  
 Describes a Python design issue, or provides general guidelines or information to the Python community. For example, 
 * [PEP-0](https://www.python.org/dev/peps/): Constans an index of Python Enhancement Proposals
 
 
-### Process
+## Process
 
 Describes a process surrounding Python, or proposes a change to (or an event in) a process. Process PEPs 
 are like Standards Track PEPs but apply to areas other than the Python language itself, for example:
