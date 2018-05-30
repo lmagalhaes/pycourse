@@ -11,9 +11,11 @@ docker-compose run --rm pycourse
 
 ### Topics
 
-1. [What is python](./1-what-is-python)
+1. [Introduction](./1-introduction)
 
-2. Python Basics
+2. [Installation](./2-installation)
+
+3. Python Basics
     * What are strong typed languages?
     * EVERYTHING IS A FREAKING OBJECT
     * EVEN OBJECT IS AN OBJECT
@@ -27,7 +29,7 @@ docker-compose run --rm pycourse
     * Collections
     * Introduction t0 "comprehensions"
 
-3. Classes and functions
+4. Classes and functions
     * \__init__
     * "Be public"
         * EVERYTHING IS PUBLIC
@@ -44,56 +46,58 @@ docker-compose run --rm pycourse
         * Variables and assisgnment
     * Override methods
 
-4. Super aka. super()
+5. Super aka. super()
     * It's more than you think
     * Multiple inheritance
     * NOT "TRAITS"
     * If you need it, there's 80% change you are doing it wrong
     * MRO - Method resolution order
 
-5. PYTHONPATH, IMPORT PATH:
+6. PYTHONPATH, IMPORT PATH:
     * How does it work?
     * Entrypoint concept
     * Setup.py "entry_point"
     * Python file outside package
 
-6. Packages:
+7. Packages:
     * import package
     * __init__.py
     * Add variables when importing the module
 
-7. Modules:
+8. Modules:
     * from package import module
     * import
 
-8. TESTING:
+9. Typing
+
+10. TESTING:
     * Unittest module
     * Runners:
         * Pytest
         * Tox
 
-9. Interesting tools:
+11. Interesting tools:
     * Micro: Flask
     * Big: Django
     * Async: AIOHTTP, Tornado, Twisted
 
-10. Dependency Management and Distribution
+12. Dependency Management and Distribution
     * Pip
     * Pipenv
     * setuptools
 
-11. DI
+13. DI
     * Not as needed as you would think
     * Parameters vs Imports
     * Modules are factories
 
-11. Extras:
-    11.1 Design Patterns
+14. Extras:
+    *Design Patterns
         * How not to write Python
-    11.2 Multi-threaded/processed applications: How not to
+    * Multi-threaded/processed applications: How not to
         * Threads
         * Processes
         * Async
         * GIL
-    11.3 OOP flavour
+    * OOP flavour
         * Access over responsibility
